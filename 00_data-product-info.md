@@ -4,8 +4,9 @@ This is a brain dump with helpful information for understanding NEON's carabid d
 
 #### Experimental design   
 * 4 traps per plot, 10 plots per site, at all terrestrial sites    
-* Collection frequency is biweekly when temperatures are > 4 deg C.  Maximum of 13 collection bouts per year.  
-* plots will usually stay the same at each site through time, though these are subject to change (e.g. at NIWO, plot 004 was switched for plot 013 in 2017)
+* Collection frequency is biweekly (most often, every 14th day within the bout) when temperatures are > 4 deg C.  On average, of 13 collection bouts per year; the precise number of bouts varyas a function of the length growing season.  
+* Plots will usually stay the same at each site through time, though these are subject to change (e.g. at NIWO, plot 004 was switched for plot 013 in 2017)
+* 
 
 #### Data structure
 * the data product splits into 9 dataframes  
