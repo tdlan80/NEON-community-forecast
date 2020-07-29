@@ -35,11 +35,11 @@ field_data <- bet_fielddata %>%
     * max of 13 bouts for tropical domains 4 & 20
 
 * start and end dates within a year are determined on greenness and leaf senescence determined from MODIS data
-    * 2013 to 2015: trapping began when 10-day running average low temperature was > 4deg;C and end when it was <4deg;C. 
+    * 2013 to 2015: trapping began when 10-day running average low temperature was > 4&deg;C and end when it was <&4deg;C. 
 
 * Sampling season: increasing green-up (start date) and the mid-point between decreasing greenness and minimum greenness (end date). 
     * If sites experience two peak greens, the start date is based on the first cycle of greening and the end date is based on the second cycle. 
-    * If temperature is unusually cold (<4deg;C), then initial sampling can be delayed or stopped earlier than in previous years
+    * If temperature is unusually cold (<&deg;C), then initial sampling can be delayed or stopped earlier than in previous years
     * No additional sampling will be carried out if the temperature remains higher than normal
 * plots will usually stay the same at each site through time, though these are subject to change (e.g. at NIWO, plot 004 was switched for plot 013 in 2017)
 
@@ -99,8 +99,8 @@ field_data <- bet_fielddata %>%
 #### data quirks
 * If all traps were not recovered from a given plot on the same day within a bout (the traps collected on the 12th day will be reset), the remaining traps        will be collected the following day BUT the traps will not be reset on the date of collection. The reset will be delayed until the start of the new bout      for the traps will delayed collection dates
 * Sampling days/No of bouts across years for a site may not be uniform. 
-    * if temperature drops <4$^\circ$C before the regular end of the sampling season, surveyscollection stops
-    * if temperature remains <4$^\circ$C even after or at the regular initiation of trap collection, trapping is delayed until temperature >4$^\circ$C
+    * if temperature drops <deg;C before the regular end of the sampling season, surveyscollection stops
+    * if temperature remains <deg;C even after or at the regular initiation of trap collection, trapping is delayed until temperature >4$deg;C
 * accuracy in species ID: 
     * Across all sites for all bouts/samples, per species, parataxonomist ID agree with that of experts >90% of the time. 
     * For most sites, the species ID agreement between parataxonomists vs experts is 100%
