@@ -54,8 +54,8 @@ field_data <- bet_fielddata %>%
 * Abundances are recorded by the sorting technician on the original sample and are not preserved across the different levels of ID. 
 * For example, a sample of 200 individuals IDed as species A was sent to the pinner. Pinner IDs two new species (B and C) within that sample. Likewise, the     expert validates A, B, and C and adds two more species D and E. Neither expert nor parataxonomist record which individuals are B, C, D, and E. We have to     assume that only a single individual was identified for each of those new species, and the remaining individuals were correctly identified originally. 
     * abundance for species B, C, D, E = 1
-    * $Abundance$ $of$ $species$ $A$ $=$ $Relative$ $abundance$ $documented$ $by$ $sorting$ $tech$ $-$ $No$ $of$ $new$ $species$ $IDed$ by $pinner$ $and$ $expert$
-      *   $200 - (2+2)$
+    * Abundance of species A = Relative abundance documented by sorting tech - No of new species IDed by pinner and expert
+      *   200 - (2+2)
 
     
       * ![workflow figure](figures/datacollectionworkflow_fromNEONbeetleuserGuide.png)  
