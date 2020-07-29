@@ -49,7 +49,7 @@ field_data <- bet_fielddata %>%
 
 #### sorting, filtering, and ID
 * After collection, the samples are separated into carabids and bycatch (both vert and other invert) and subsequently, carabids samples are identified at multiple levels of expertise. 
-* Sorted & IDed by field tech $\rightarrow$ subset of sorted  pinned (parataxonomist) and re-IDed $\rightarrow$ subset of pinned to expert taxonomists $\rightarrow$ subset to DNA bardocing
+* Sorted & IDed by field tech &rarr; subset of sorted  pinned (parataxonomist) and re-IDed &rarr; subset of pinned to expert taxonomists &rarr; subset to DNA bardocing
 * Taxonomic expert's ID overrides identifications by the sorter and pinner.  
 * Abundances are recorded by the sorting technician on the original sample and are not preserved across the different levels of ID. 
 * For example, a sample of 200 individuals IDed as species A was sent to the pinner. Pinner IDs two new species (B and C) within that sample. Likewise, the     expert validates A, B, and C and adds two more species D and E. Neither expert nor parataxonomist record which individuals are B, C, D, and E. We have to     assume that only a single individual was identified for each of those new species, and the remaining individuals were correctly identified originally. 
@@ -88,10 +88,10 @@ field_data <- bet_fielddata %>%
     * A few sites have multiple `EventIDs` for different plots that were set and collected on the same day within the same site. 
 *  
 * Lots of useful information on data structure included in the User Guide pdf linked in the data product webpage  
-* ID: if confident about the genus of a specimen and uncertain about the species level ID $\rightarrow$ ‘cf. species’ or ‘aff. species’ 
+* ID: if confident about the genus of a specimen and uncertain about the species level ID &rarr; ‘cf. species’ or ‘aff. species’ 
     * indicates that the identification provided in `scientificName` is possibly incorrect
     * Cryptic species: when two species that are morphologically indistinguishable, `scientificName` lists likely species pairs where the species epithet is          separated by `/`.
-    * if `scientificName` contains `sp.` $\rightarrow$ all individuals of that group likely belong to a single species; `spp.` -> all individuals can belong         to multiple species, even multiple genera 
+    * if `scientificName` contains `sp.` &rarr; all individuals of that group likely belong to a single species; `spp.` &rarr; all individuals can belong         to multiple species, even multiple genera 
 * `MorphospeciesID`: assigned by parataxonomists. Beetles morphologically similar, BUT, cannot assign a `scientificName`. 
     * `morphospeciesID` are split or merged after DNA barcoding or expert ID.
     * 
@@ -108,7 +108,7 @@ field_data <- bet_fielddata %>%
     * Temporal gaps in data/bouts
         * Traps not collected in 12-14 day interval: this is very uncommon; for the entire history of pitfall trap set-up, the missing data represents <1% of             the traps. This within-bout trap collection gaps mostly come from two domains.   
         * Domain 10: trapping can be truncated mid-season
-        * Domain 12: if $\geq$ 5 instances of trap predation are observed within a single collection bout $\rightarrow$ site-wide temporary trap closures for two bouts (28              days)
+        * Domain 12: if &lt; 5 instances of trap predation are observed within a single collection bout &rarr; site-wide temporary trap closures for two bouts (28              days)
         * Trap damage: this is slightly high: ~6% across all sites
 * The IDs by parataxonomists have non-carabid taxa ergo `bet_parataxonomistID` contains non-carabid families incorrectly IDed as carabids although all non-carabids should have been sorted out as bycatch by sorting technicians; i.e., expert taxonomists have identified non-carabid families in `bet_expertTaxonomistIDProcessed`.
 * Species-level match between parataxonomists and expert taxonomists: ~90%. Across all sites, for sample subset sent to experts, the parataxonomists have IDed over 90% of beetles correctly to the species level when matched with expert ID.
