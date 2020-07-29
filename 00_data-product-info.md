@@ -35,7 +35,7 @@ field_data <- bet_fielddata %>%
     * max of 13 bouts for tropical domains 4 & 20
 
 * start and end dates within a year are determined on greenness and leaf senescence determined from MODIS data
-    * 2013 to 2015: trapping began when 10-day running average low temperature was > 4&deg;C and end when it was <&4deg;C. 
+    * 2013 to 2015: trapping began when 10-day running average low temperature was > 4&deg;C and end when it was <4&deg;C. 
 
 * Sampling season: increasing green-up (start date) and the mid-point between decreasing greenness and minimum greenness (end date). 
     * If sites experience two peak greens, the start date is based on the first cycle of greening and the end date is based on the second cycle. 
