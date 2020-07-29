@@ -100,7 +100,7 @@ field_data <- bet_fielddata %>%
 * If all traps were not recovered from a given plot on the same day within a bout (the traps collected on the 12th day will be reset), the remaining traps        will be collected the following day BUT the traps will not be reset on the date of collection. The reset will be delayed until the start of the new bout      for the traps will delayed collection dates
 * Sampling days/No of bouts across years for a site may not be uniform. 
     * if temperature drops <4&deg;C before the regular end of the sampling season, surveyscollection stops
-    * if temperature remains <4&deg;C even after or at the regular initiation of trap collection, trapping is delayed until temperature >4$deg;C
+    * if temperature remains <4&deg;C even after or at the regular initiation of trap collection, trapping is delayed until temperature >4&deg;C
 * accuracy in species ID: 
     * Across all sites for all bouts/samples, per species, parataxonomist ID agree with that of experts >90% of the time. 
     * For most sites, the species ID agreement between parataxonomists vs experts is 100%
